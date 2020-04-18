@@ -11,6 +11,10 @@ const pages = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Catalog" useBrowserHistory={false} pages={pages} />,
+  <Catalog
+    title="Data Visualization Assets"
+    useBrowserHistory={false}
+    pages={pages}
+  />,
   document.getElementById("catalog")
 );

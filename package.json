@@ -1,6 +1,6 @@
 {
   "name": "data-vis-assets",
-  "description": "A collection of various assets for Data Visualization collected from inspiring sources.",
+  "description": "A collection of various assets for Data Visualization assembled from inspiring sources.",
   "dependencies": {
     "catalog": "^3.6.0",
     "react": "^16.13.1",
