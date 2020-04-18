@@ -8,6 +8,17 @@ const pages = [
     title: "Home",
     content: pageLoader(() => import("./HOME.md")),
   },
+  {
+    path: "/encodings",
+    title: "Encodings",
+    pages: [
+      {
+        path: "/color",
+        title: "Color",
+        content: pageLoader(() => import("./COLOR.md")),
+      },
+    ],
+  },
 ];
 
 ReactDOM.render(
