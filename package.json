@@ -1,0 +1,15 @@
+{
+  "name": "data-vis-assets",
+  "description": "A collection of various assets for Data Visualization collected from inspiring sources.",
+  "dependencies": {
+    "catalog": "^3.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build",
+    "start": "catalog start",
+    "build": "catalog build --out docs/ --public-url /data-vis-assets"
+  }
+}
