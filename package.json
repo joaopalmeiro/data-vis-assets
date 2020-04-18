@@ -11,5 +11,19 @@
     "catalog-build": "catalog build",
     "start": "catalog start",
     "build": "catalog build --out docs/ --public-url /data-vis-assets"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaopalmeiro/data-vis-assets.git"
+  },
+  "keywords": [
+    "data visualization",
+    "color"
+  ],
+  "author": "João Palmeiro <jm.palmeiro@campus.fct.unl.pt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/data-vis-assets/issues"
+  },
+  "homepage": "https://joaopalmeiro.github.io/data-vis-assets/"
 }

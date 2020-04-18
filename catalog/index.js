@@ -21,11 +21,22 @@ const pages = [
   },
 ];
 
+const theme = {
+  pageHeadingBackground: "#4A5568",
+  sidebarColorHeading: "#4A5568",
+  sidebarColorText: "#4A5568",
+  navBarTextColor: "#4A5568",
+  sidebarColorTextActive: "#3F88C5",
+  brandColor: "#4A5568",
+  linkColor: "#3F88C5",
+};
+
 ReactDOM.render(
   <Catalog
     title="Data Visualization Assets"
     useBrowserHistory={false}
     pages={pages}
+    theme={theme}
   />,
   document.getElementById("catalog")
 );
