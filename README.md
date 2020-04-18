@@ -11,7 +11,7 @@ To deploy on GitHub Pages:
 
 - `yarn build`
 
-To create a build and run it locally (assuming that `[serve](https://github.com/zeit/serve)` is installed globally):
+To create a build and run it locally (assuming that [`serve`](https://github.com/zeit/serve) is installed globally):
 
 - `yarn run catalog-build`
 - `serve catalog/build/`
