@@ -17,6 +17,11 @@ const pages = [
         title: "Color",
         content: pageLoader(() => import("./COLOR.md")),
       },
+      {
+        path: "/size",
+        title: "Size",
+        content: pageLoader(() => import("./SIZE.md")),
+      },
     ],
   },
 ];
