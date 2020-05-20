@@ -9,6 +9,17 @@ const pages = [
     content: pageLoader(() => import("./HOME.md")),
   },
   {
+    path: "/charts",
+    title: "Charts",
+    pages: [
+      {
+        path: "/emoji",
+        title: "Emoji",
+        content: pageLoader(() => import("./EMOJI.md")),
+      },
+    ],
+  },
+  {
     path: "/encodings",
     title: "Encodings",
     pages: [
