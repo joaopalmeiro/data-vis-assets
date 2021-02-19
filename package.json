@@ -20,7 +20,11 @@
     "data visualization",
     "color"
   ],
-  "author": "João Palmeiro <jm.palmeiro@campus.fct.unl.pt>",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "jm.palmeiro@campus.fct.unl.pt",
+    "url": "https://twitter.com/joaompalmeiro"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/joaopalmeiro/data-vis-assets/issues"

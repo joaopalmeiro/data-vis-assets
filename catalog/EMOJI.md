@@ -16,6 +16,8 @@ rows:
     Emoji: '🥧'
   - Chart: 'Radar Chart'
     Emoji: '🕸️'
+  - Chart: 'Stellar Chart'
+    Emoji: '✨'
   - Chart: 'Violin Plot'
     Emoji: '🎻'
   - Chart: 'Waffle Chart'
